@@ -47,7 +47,7 @@ code {
   border-radius: 1rem;
 }
 .ce-active-chat-card {
-  background-color: rgb(20, 72, 121) !important;
+  background-color: rgb(216, 63, 63) !important;
   box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2),
     6px 6px 20px 10px rgba(0, 0, 0, 0.19);
   color: white !important;
@@ -64,24 +64,24 @@ code {
   background-color: rgb(213, 220, 233) !important;
 }
 #new-chat-plus-button.ce-primary-button {
-  background-color: rgb(20, 72, 121) !important;
+  background-color: rgb(216, 63, 63) !important;
 }
 .ce-chat-title-container {
   background-color: rgba(213, 220, 233, 0.637) !important;
-  color: rgb(20, 72, 121) !important;
+  color: rgb(216, 63, 63) !important;
 }
 .ql-editor {
   background-color: rgba(213, 220, 233, 0.726) !important;
 }
 .ce-message-bubble.ce-my-message-bubble {
-  background-color: rgb(20, 72, 121) !important;
+  background-color: rgb(216, 63, 63) !important;
 }
 #ce-send-message-button {
-  background-color: rgb(20, 72, 121) !important;
+  background-color: rgb(216, 63, 63) !important;
 }
 .ce-input.ce-text-input {
   background-color: rgb(213, 220, 233);
-  color: rgb(20, 72, 121);
+  color: rgb(216, 63, 63);
 }
 
 /* .ce-chat-form-container div {

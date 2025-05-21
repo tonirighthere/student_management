@@ -15,6 +15,4 @@ router.post("/create-student-account", createStudentAccount);
 
 router.patch("/change-password", changePassword);
 
-// export default login;
-
 export default router;

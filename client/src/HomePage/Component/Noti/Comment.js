@@ -13,7 +13,7 @@ const Comment_site = styled.div`
 const Comment_content = styled.p`
   // text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #0c67b3;
+  color: rgb(225, 89, 89);
   font-size: 1.5rem;
   line-height: 1.6rem;
 `;
@@ -21,7 +21,7 @@ const Comment_content = styled.p`
 const Comment_id = styled.p`
   // text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #0c67b3;
+  color:rgb(225, 89, 89);
   font-size: 1.8rem;
   line-height: 2.1rem;
   font-weight: bold;

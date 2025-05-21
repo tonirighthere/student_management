@@ -15,7 +15,7 @@ const Title = styled.h2`
   font-size: 5rem;
   font-weight: bolder;
   margin-top: 5%;
-  color: #0b5592;
+  color: rgb(225, 89, 89);
 `;
 const Infor_site = styled.div`
   background-color: white;

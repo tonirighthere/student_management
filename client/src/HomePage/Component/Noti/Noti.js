@@ -12,7 +12,7 @@ const Noti_element = styled.div`
   display: flex;
   width: 80%;
   margin: auto;
-  background-color: #0c67b3;
+  background-color: rgb(0, 0, 0);
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   margin-top: 10px;
   min-height: 8rem;
@@ -20,7 +20,7 @@ const Noti_element = styled.div`
   border-radius: 20px;
   transition: all 0.3s ease;
   &:hover {
-    background-color: #0b5592;
+    background-color: rgb(225, 89, 89);
     cursor: pointer;
     box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2),
       6px 6px 20px 0px rgba(0, 0, 0, 0.19);
@@ -60,7 +60,7 @@ const SendRep_btn = styled.button`
   opacity: 0.9;
   width: 15%;
   border: none;
-  background-color: rgb(22, 82, 150);
+  background-color: rgb(225, 89, 89);
   color: white;
   transition: all 0.3s ease;
   border-radius: 0 0 5px 0;

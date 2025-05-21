@@ -5,11 +5,11 @@ import { Redirect } from "react-router-dom";
 import styled from "styled-components";
 import { FaUser } from "react-icons/fa";
 import { RiLockPasswordFill } from "react-icons/ri";
-import Logo from "./uet.png";
-import AppLogo from "./applogo_1.png";
+import Logo from "./logo2.webp";
+import AppLogo from "./applogo_2.png";
 
 const Body = styled.div`
-  // background-color: rgb(186, 248, 255);
+  // background-color: rgb(231, 72, 72);
   position: relative;
   overflow: hidden;
   height: 100vh;
@@ -20,7 +20,7 @@ const Container = styled.div`
 `;
 const _Input = styled.input`
   border: 0;
-  border-bottom: 2px solid #09599b;
+  border-bottom: 2px solid rgb(218, 72, 72);
   outline: 0;
   background: transparent;
   width: 60%;
@@ -29,7 +29,7 @@ const _Button = styled.button`
   width: 260px;
   margin-left: 70px;
   height: 40px;
-  background-color: #2573b3;
+  background-color:rgb(224, 87, 87);
   color: white;
   border: none;
   border-radius: 10px;
@@ -45,17 +45,17 @@ const _Button = styled.button`
 
 const Icon = styled.i`
   padding: 0px 5px 2px 0px;
-  border-bottom: 2px solid #09599b;
+  border-bottom: 2px solid rgb(240, 80, 85);
   margin-left: 18%;
   // margin-right: 5px;
-  color: #2573b3;
+  color:rgb(228, 73, 76);
 `;
 const Title = styled.p`
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
   font-size: 3rem;
-  color: #2573b3;
+  color:rgb(234, 81, 94);
   padding: 20px 0px 20px 0px;
 `;
 const Title1 = styled.p`
@@ -97,7 +97,8 @@ const App_logo = styled.img`
   height: 250px;
 `;
 const App_logo_container = styled.div`
-  margin: 160px 0 0 150px;
+  margin-top: 200px;
+  margin-left: 150px;
 `;
 const Form_container = styled.div``;
 const Line1 = styled.div`
@@ -106,7 +107,7 @@ const Line1 = styled.div`
   position: absolute;
   width: 500px;
   height: 350px;
-  border: 4px solid rgb(12, 64, 124);
+  border: 4px solid rgb(221, 70, 77);
   border-radius: 50%;
 `;
 const Line2 = styled.div`
@@ -114,7 +115,7 @@ const Line2 = styled.div`
   overflow: hidden;
   width: 450px;
   height: 350px;
-  border: 4px solid rgb(12, 64, 124);
+  border: 4px solid rgb(221, 70, 77);
   border-radius: 50%;
   right: -6.5rem;
   bottom: -6rem;
@@ -125,7 +126,7 @@ const Comment = styled.p`
   max-width: 380px;
   text-align: center;
   font-size: 1.4rem;
-  color: rgb(9, 49, 95);
+  color: rgb(221, 70, 77);
   transition: all 0.3s ease;
   font-weight: bold;
   opacity: 0.6;
@@ -140,7 +141,7 @@ const Comment1 = styled.p`
   max-width: 380px;
   text-align: center;
   font-size: 1.4rem;
-  color: rgb(9, 49, 95);
+  color: rgb(221, 70, 77);
   transition: all 0.3s ease;
   font-weight: bold;
   opacity: 0.6;
@@ -155,7 +156,7 @@ const Comment2 = styled.p`
   max-width: 380px;
   text-align: center;
   font-size: 1.4rem;
-  color: rgb(9, 49, 95);
+  color: rgb(221, 70, 77);
   transition: all 0.3s ease;
   font-weight: bold;
   opacity: 0.6;
@@ -222,9 +223,9 @@ class Login extends Component {
           <Container>
             <App_logo_container>
               <App_logo src={AppLogo} />
-              <Comment>Hệ thống hỗ trợ quản lý sinh viên Classe369</Comment>
-              <Comment1>Xây dựng và phát triển bởi N3-INT3306_22</Comment1>
-              <Comment2>Trường Đại học Công nghệ - ĐHQGHN</Comment2>
+              <Comment>Hệ thống hỗ trợ quản lý sinh viên Ptit369</Comment>
+              <Comment1>Xây dựng và phát triển bởi N08-HQTCSDL_D22</Comment1>
+              <Comment2>Học viện Công Nghệ Bưu Chính Viễn Thông - PTIT</Comment2>
             </App_logo_container>
             <Form_container>
               <Form action='' method='post' onSubmit={this.submit}>

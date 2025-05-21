@@ -21,7 +21,7 @@ const Upd_site = styled.div`
   display: flex;
 `;
 const Noti_add = styled.textarea`
-  border: 1px solid #0b5592;
+  border: 1px solid rgb(17, 16, 16);
   min-height: 6.5rem;
   box-sizing: border-box;
   width: 85%;
@@ -35,18 +35,18 @@ const Noti_add = styled.textarea`
 
 const Add_btn = styled.button`
   width: 15%;
-  background-color: #117ed8;
+  background-color: rgb(10, 10, 10);
   border: none;
   color: white;
   border-radius: 0 10px 10px 0;
   transition: all 0.3s ease;
   &:hover {
-    background-color: #0f5fa0;
+    background-color: rgb(225, 89, 89);
   }
 `;
 
 const Noti_update = styled.textarea`
-  border: 1px solid #0b5592;
+  border: 1px solid rgb(235, 94, 94);
   min-height: 6.5rem;
   box-sizing: border-box;
   width: 85%;
@@ -60,13 +60,13 @@ const Noti_update = styled.textarea`
 
 const Upd_btn = styled.button`
   width: 15%;
-  background-color: #117ed8;
+  background-color: rgb(0, 0, 0);
   border: none;
   color: white;
   border-radius: 0 10px 10px 0;
   transition: all 0.3s ease;
   &:hover {
-    background-color: #0f5fa0;
+    background-color: rgb(0, 0, 0);
   }
 `;
 

@@ -53,7 +53,7 @@ tr {
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 5rem;
-  color: #09599b;
+  color: #d13e3e;
   text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3);
 }
 .hide {
@@ -98,5 +98,5 @@ tr {
   text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3);
   font-size: 5rem;
   font-weight: bolder;
-  color: #0b5592;
+  color: #d13e3e;
 }

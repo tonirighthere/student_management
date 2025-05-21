@@ -20,7 +20,7 @@ const ChangePassSite = styled.div`
 const ChangePassTitle = styled.h1`
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  color: #2573b3;
+  color: rgb(225, 89, 89);
 `;
 
 const ChangePassForm = styled.form`
@@ -31,16 +31,16 @@ const ChangePassForm = styled.form`
 
 const InforInput = styled.input`
   border: none;
-  border-bottom: 2px solid #09599b;
+  border-bottom: 2px solid rgb(225, 89, 89);
   outline: none;
   background-color: transparent;
 `;
 
 const Icon = styled.i`
-  border-bottom: 2px solid #09599b;
+  border-bottom: 2px solid rgb(225, 89, 89);
   padding: 0.4rem 0.4rem 0.2rem 0.3rem;
   box-sizing: border-box;
-  color: #09599b;
+  color: rgb(225, 89, 89);
 `;
 
 const Input_container = styled.div`

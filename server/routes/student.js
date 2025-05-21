@@ -1,7 +1,6 @@
 import express from "express";
 import { verifyToken } from "../midleware/login.midleware.js";
 import { upload } from "../midleware/upload.midleware.js";
-import XLSX from "xlsx";
 import {
   createStudent,
   deleteStudent,
@@ -10,7 +9,6 @@ import {
   importFromExcel,
   updateStudent,
 } from "../controllers/student.controller.js";
-import multer from "multer";
 
 const router = express.Router();
 

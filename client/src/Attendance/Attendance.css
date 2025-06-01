@@ -1,0 +1,43 @@
+.attendance-container {
+  background-color: #f0f2f5; /* Light gray background for the page */
+  min-height: 100vh; /* Ensure background covers full viewport height */
+  padding-top: 20px; /* Add some padding at the top */
+  padding-bottom: 20px; /* Add some padding at the bottom */
+}
+
+.attendance-container .card {
+  background-color: #ffffff; /* White background for cards */
+  border: 1px solid #e0e0e0; /* Light border for cards */
+}
+
+/* Ensure table has white background and black text if not already by Bootstrap */
+.attendance-container .table {
+  background-color: #ffffff !important; /* Force white background for table */
+  color: #212529 !important; /* Ensure dark text color for table content */
+}
+
+.attendance-container .table th,
+.attendance-container .table td {
+  border-color: #dee2e6; /* Standard Bootstrap table border color */
+  color: #212529; /* Ensure dark text for table headers and cells */
+}
+
+.attendance-container .table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.03) !important; /* Lighter stripe for readability on white */
+}
+
+.attendance-container .table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.06) !important; /* Slightly darker hover for white background */
+  color: #212529;
+}
+
+.attendance-container h2, 
+.attendance-container h5,
+.attendance-container label {
+  color: #333; /* Darker text for titles and labels for better contrast */
+}
+
+.attendance-container .card-header.bg-primary {
+  background-color: #007bff !important; /* Bootstrap primary blue */
+  color: white;
+} 

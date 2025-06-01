@@ -181,12 +181,12 @@ class ListStudent extends Component {
             <ExportToExcel apiData={students} fileName={this.state.item} />
           </div>
           &nbsp;
-          <Link
+          {/* <Link
             to='/home/list-students/import-data'
             className='btn btn-primary data'>
             <span className='fa fa-file-import'></span>&nbsp; Nhập dữ liệu từ
             Excel
-          </Link>
+          </Link> */}
           <div className='row'>
             <div className='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
               <ListSV 
